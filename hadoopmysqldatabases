@@ -1,0 +1,13 @@
+CREATE DATABASE amon DEFAULT CHARACTER SET utf8;
+GRANT ALL ON amon.* TO 'amon'@'%' IDENTIFIED BY 'amon_password';
+CREATE DATABASE rman DEFAULT CHARACTER SET utf8;
+GRANT ALL ON rman.* TO 'rman'@'%' IDENTIFIED BY 'rman_password';
+CREATE DATABASE sentry DEFAULT CHARACTER SET utf8;
+GRANT ALL ON sentry.* TO 'sentry'@'%' IDENTIFIED BY 'sentry_password';
+CREATE DATABASE metastore DEFAULT CHARACTER SET utf8;
+GRANT ALL ON metastore.* TO 'hive'@'%' IDENTIFIED BY 'hive_password';
+CREATE DATABASE nav DEFAULT CHARACTER SET utf8;
+GRANT ALL ON nav.* TO 'nav'@'%' IDENTIFIED BY 'nav_password';
+CREATE DATABASE navms DEFAULT CHARACTER SET utf8;
+GRANT ALL ON navms.* TO 'navms'@'%' IDENTIFIED BY 'navms_password';
+

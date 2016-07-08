@@ -10,4 +10,6 @@ CREATE DATABASE nav DEFAULT CHARACTER SET utf8;
 GRANT ALL ON nav.* TO 'nav'@'%' IDENTIFIED BY 'nav_password';
 CREATE DATABASE navms DEFAULT CHARACTER SET utf8;
 GRANT ALL ON navms.* TO 'navms'@'%' IDENTIFIED BY 'navms_password';
-
+CREATE DATABASE oozie DEFAULT CHARACTER SET utf8;
+GRANT ALL ON oozie.* TO 'oozie'@'%' IDENTIFIED BY 'oozie_password';
+GRANT ALL ON *.* to 'root'@'%' INDENTIFIED BY 'password';
